@@ -24,3 +24,15 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber)  // it will showing 33 but type will be changes from number to string
 console.log(typeof stringNumber) // showing string as a type
+
+
+// -----------------------Operations----------------------
+
+let str1 = "Hello"
+let str2 = " Vivek"
+console.log(str1+str2)
+
+console.log("1" + 2)  // showing 12 as output
+console.log(1 + "2")  // showing 12
+console.log("1" + 2 + 2)   // showing 122
+console.log(1 + 2 + "2")   // but it is showing 32
